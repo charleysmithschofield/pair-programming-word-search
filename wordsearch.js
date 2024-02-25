@@ -22,6 +22,8 @@ Instruction
 Complete the function named wordSearch and ensure that all tests pass. Add any tests that you find necessary.
 */
 
+// contributors: @Krisan10 and @charleysmithschofield
+
 const wordSearch = (letters, word) => {
   const horizontalJoin = letters.map(ls => ls.join(''));
   for (let l of horizontalJoin) {
